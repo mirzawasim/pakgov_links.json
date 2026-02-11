@@ -1,60 +1,6 @@
 {
   "websites": [
     {
-      "title": "LESCO (Electricity Lahore)",
-      "category": "Utilities",
-      "url": "https://bill.pitc.com.pk/lescobill",
-      "icon": "https://img.icons8.com/color/96/electricity.png"
-    },
-    {
-      "title": "K-Electric (Karachi)",
-      "category": "Utilities",
-      "url": "https://www.ke.com.pk/customer-services/bill-payment-options/",
-      "icon": "https://img.icons8.com/color/96/flash-on.png"
-    },
-    {
-      "title": "IESCO (Islamabad)",
-      "category": "Utilities",
-      "url": "https://iesco.com.pk/index.php/customer-services/bill-view-print",
-      "icon": "https://img.icons8.com/color/96/electricity.png"
-    },
-    {
-      "title": "SNGPL Gas (North)",
-      "category": "Utilities",
-      "url": "https://www.sngpl.com.pk/login.jsp?pgid=636",
-      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
-    },
-    {
-      "title": "SSGC Gas (South)",
-      "category": "Utilities",
-      "url": "https://www.ssgc.com.pk/web/?page_id=233",
-      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
-    },
-    {
-      "title": "NADRA Official",
-      "category": "Identity",
-      "url": "https://www.nadra.gov.pk",
-      "icon": "https://img.icons8.com/color/96/id-verified.png"
-    },
-    {
-      "title": "HEC Portal",
-      "category": "Education",
-      "url": "https://www.hec.gov.pk",
-      "icon": "https://img.icons8.com/color/96/graduation-cap.png"
-    },
-    {
-      "title": "National Jobs Portal",
-      "category": "Jobs",
-      "url": "https://www.njp.gov.pk",
-      "icon": "https://img.icons8.com/color/96/find-matching-job.png"
-    },
-    {
-      "title": "FBR Tax",
-      "category": "Tax",
-      "url": "https://www.fbr.gov.pk",
-      "icon": "https://img.icons8.com/color/96/tax.png"
-    },
-    {
       "title": "NADRA Official",
       "category": "Identity",
       "url": "https://www.nadra.gov.pk",
@@ -63,16 +9,27 @@
     {
       "title": "NADRA Overseas",
       "category": "Identity",
-      "url": "https://www.nadra.gov.pk/overseas/",
+      "url": "https://id.nadra.gov.pk",
       "icon": "https://img.icons8.com/color/96/passport.png"
     },
     {
-      "title": "HEC Portal",
+      "title": "FBR (Federal Board of Revenue)",
+      "category": "Tax",
+      "url": "https://www.fbr.gov.pk",
+      "icon": "https://img.icons8.com/color/96/tax.png"
+    },
+    {
+      "title": "State Bank of Pakistan",
+      "category": "Finance",
+      "url": "https://www.sbp.org.pk",
+      "icon": "https://img.icons8.com/color/96/bank.png"
+    },
+    {
+      "title": "HEC Pakistan",
       "category": "Education",
       "url": "https://www.hec.gov.pk",
       "icon": "https://img.icons8.com/color/96/graduation-cap.png"
     },
-    
     {
       "title": "BISE Boards",
       "category": "Education",
@@ -80,16 +37,10 @@
       "icon": "https://img.icons8.com/color/96/school.png"
     },
     {
-      "title": "Punjab Education",
+      "title": "Punjab Education Department",
       "category": "Education",
       "url": "https://www.punjab.gov.pk/education",
       "icon": "https://img.icons8.com/color/96/classroom.png"
-    },
-    {
-      "title": "NIH Health",
-      "category": "Health",
-      "url": "https://www.nih.org.pk",
-      "icon": "https://img.icons8.com/color/96/hospital.png"
     },
     {
       "title": "National Jobs Portal",
@@ -98,34 +49,28 @@
       "icon": "https://img.icons8.com/color/96/find-matching-job.png"
     },
     {
-      "title": "FPSC (Federal Jobs)",
+      "title": "FPSC (Federal Public Service Commission)",
       "category": "Jobs",
       "url": "https://www.fpsc.gov.pk",
       "icon": "https://img.icons8.com/color/96/job.png"
     },
     {
-      "title": "PPSC (Punjab Jobs)",
+      "title": "PPSC (Punjab Public Service Commission)",
       "category": "Jobs",
       "url": "https://www.ppsc.gop.pk",
       "icon": "https://img.icons8.com/color/96/test-passed.png"
     },
     {
-      "title": "FIA Official",
+      "title": "FIA Pakistan",
       "category": "Security",
       "url": "https://www.fia.gov.pk",
       "icon": "https://img.icons8.com/color/96/police-badge.png"
     },
     {
-      "title": "Federal Board of Revenue",
-      "category": "Tax",
-      "url": "https://www.fbr.gov.pk",
-      "icon": "https://img.icons8.com/color/96/tax.png"
-    },
-    {
-      "title": "State Bank",
-      "category": "Tax",
-      "url": "https://www.sbp.org.pk",
-      "icon": "https://img.icons8.com/color/96/bank.png"
+      "title": "NIH Pakistan",
+      "category": "Health",
+      "url": "https://www.nih.org.pk",
+      "icon": "https://img.icons8.com/color/96/hospital.png"
     },
     {
       "title": "Pakistan Railways",
@@ -134,21 +79,51 @@
       "icon": "https://img.icons8.com/color/96/train.png"
     },
     {
-      "title": "Overseas Foundation",
+      "title": "LESCO (Lahore Electric Supply)",
+      "category": "Utilities",
+      "url": "https://www.lesco.gov.pk",
+      "icon": "https://img.icons8.com/color/96/electricity.png"
+    },
+    {
+      "title": "K-Electric Karachi",
+      "category": "Utilities",
+      "url": "https://www.ke.com.pk",
+      "icon": "https://img.icons8.com/color/96/flash-on.png"
+    },
+    {
+      "title": "IESCO Islamabad",
+      "category": "Utilities",
+      "url": "https://www.iesco.com.pk",
+      "icon": "https://img.icons8.com/color/96/electricity.png"
+    },
+    {
+      "title": "SNGPL (Gas North)",
+      "category": "Utilities",
+      "url": "https://www.sngpl.com.pk",
+      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
+    },
+    {
+      "title": "SSGC (Gas South)",
+      "category": "Utilities",
+      "url": "https://www.ssgc.com.pk",
+      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
+    },
+    {
+      "title": "Overseas Pakistanis Foundation",
       "category": "Overseas",
       "url": "https://www.opf.org.pk",
       "icon": "https://img.icons8.com/color/96/conference.png"
     },
     {
-      "title": "Embassy Saudi Arabia",
+      "title": "Pakistan Embassy Saudi Arabia",
       "category": "Embassies",
-      "url": "https://pakembassyksa.com",
+      "url": "https://www.pakembassyksa.com",
       "icon": "https://img.icons8.com/color/96/saudi-arabia.png"
     },
     {
-      "title": "High Commission UK",
+      "title": "Pakistan High Commission UK",
       "category": "Embassies",
-      "url": "https://pakistanhighcommissionuk.gov.pk",
+      "url": "https://www.phclondon.org",
       "icon": "https://img.icons8.com/color/96/great-britain.png"
     }
   ]
