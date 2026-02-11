@@ -1,214 +1,100 @@
 {
-  "categories": [
+  "websites": [
     {
-      "name": "NADRA & Identity",
-      "websites": [
-        {
-          "title": "NADRA Official",
-          "url": "https://www.nadra.gov.pk",
-          "icon": "https://img.icons8.com/color/96/id-verified.png"
-        },
-        {
-          "title": "NADRA for Overseas Pakistanis",
-          "url": "https://www.nadra.gov.pk/overseas/",
-          "icon": "https://img.icons8.com/color/96/passport.png"
-        }
-      ]
+      "title": "NADRA Official",
+      "category": "Identity",
+      "url": "https://www.nadra.gov.pk",
+      "icon": "https://img.icons8.com/color/96/id-verified.png"
     },
     {
-      "name": "Education",
-      "websites": [
-        {
-          "title": "Higher Education Commission",
-          "url": "https://www.hec.gov.pk",
-          "icon": "https://img.icons8.com/color/96/graduation-cap.png"
-        },
-        {
-          "title": "BISE Boards",
-          "url": "https://www.biseweb.com",
-          "icon": "https://img.icons8.com/color/96/school.png"
-        },
-        {
-          "title": "Punjab Education Department",
-          "url": "https://www.punjab.gov.pk/education",
-          "icon": "https://img.icons8.com/color/96/classroom.png"
-        },
-        {
-          "title": "Sindh Education Department",
-          "url": "https://www.sindheducation.gov.pk",
-          "icon": "https://img.icons8.com/color/96/books.png"
-        }
-      ]
+      "title": "NADRA Overseas",
+      "category": "Identity",
+      "url": "https://www.nadra.gov.pk/overseas/",
+      "icon": "https://img.icons8.com/color/96/passport.png"
     },
     {
-      "name": "Health",
-      "websites": [
-        {
-          "title": "National Institute of Health",
-          "url": "https://www.nih.org.pk",
-          "icon": "https://img.icons8.com/color/96/hospital.png"
-        },
-        {
-          "title": "Ministry of National Health Services",
-          "url": "https://www.nhsrc.gov.pk",
-          "icon": "https://img.icons8.com/color/96/health-book.png"
-        },
-        {
-          "title": "Punjab Health Department",
-          "url": "https://www.punjab.gov.pk/health",
-          "icon": "https://img.icons8.com/color/96/heart-with-pulse.png"
-        }
-      ]
+      "title": "HEC Portal",
+      "category": "Education",
+      "url": "https://www.hec.gov.pk",
+      "icon": "https://img.icons8.com/color/96/graduation-cap.png"
     },
     {
-      "name": "Jobs & Careers (Government)",
-      "websites": [
-        {
-          "title": "National Jobs Portal",
-          "url": "https://www.njp.gov.pk",
-          "icon": "https://img.icons8.com/color/96/find-matching-job.png"
-        },
-        {
-          "title": "Federal Public Service Commission",
-          "url": "https://www.fpsc.gov.pk",
-          "icon": "https://img.icons8.com/color/96/job.png"
-        },
-        {
-          "title": "Punjab Public Service Commission",
-          "url": "https://www.ppsc.gop.pk",
-          "icon": "https://img.icons8.com/color/96/test-passed.png"
-        },
-        {
-          "title": "Sindh Public Service Commission",
-          "url": "https://www.spsc.gov.pk",
-          "icon": "https://img.icons8.com/color/96/document.png"
-        },
-        {
-          "title": "KP Public Service Commission",
-          "url": "https://www.kppsc.gov.pk",
-          "icon": "https://img.icons8.com/color/96/task.png"
-        },
-        {
-          "title": "Balochistan Public Service Commission",
-          "url": "https://www.bpsc.gob.pk",
-          "icon": "https://img.icons8.com/color/96/clipboard.png"
-        }
-      ]
+      "title": "BISE Boards",
+      "category": "Education",
+      "url": "https://www.biseweb.com",
+      "icon": "https://img.icons8.com/color/96/school.png"
     },
     {
-      "name": "Law & Security",
-      "websites": [
-        {
-          "title": "Federal Investigation Agency",
-          "url": "https://www.fia.gov.pk",
-          "icon": "https://img.icons8.com/color/96/police-badge.png"
-        },
-        {
-          "title": "Pakistan Police",
-          "url": "https://www.pakistanpolice.gov.pk",
-          "icon": "https://img.icons8.com/color/96/police.png"
-        },
-        {
-          "title": "Islamabad Police",
-          "url": "https://islamabadpolice.gov.pk",
-          "icon": "https://img.icons8.com/color/96/security-guard.png"
-        }
-      ]
+      "title": "Punjab Education",
+      "category": "Education",
+      "url": "https://www.punjab.gov.pk/education",
+      "icon": "https://img.icons8.com/color/96/classroom.png"
     },
     {
-      "name": "Tax & Finance",
-      "websites": [
-        {
-          "title": "Federal Board of Revenue",
-          "url": "https://www.fbr.gov.pk",
-          "icon": "https://img.icons8.com/color/96/tax.png"
-        },
-        {
-          "title": "State Bank of Pakistan",
-          "url": "https://www.sbp.org.pk",
-          "icon": "https://img.icons8.com/color/96/bank.png"
-        },
-        {
-          "title": "Ministry of Finance",
-          "url": "https://www.finance.gov.pk",
-          "icon": "https://img.icons8.com/color/96/money.png"
-        }
-      ]
+      "title": "NIH Health",
+      "category": "Health",
+      "url": "https://www.nih.org.pk",
+      "icon": "https://img.icons8.com/color/96/hospital.png"
     },
     {
-      "name": "Transport & Utilities",
-      "websites": [
-        {
-          "title": "Pakistan Railways",
-          "url": "https://www.pakrail.gov.pk",
-          "icon": "https://img.icons8.com/color/96/train.png"
-        },
-        {
-          "title": "National Highway Authority",
-          "url": "https://www.nha.gov.pk",
-          "icon": "https://img.icons8.com/color/96/road.png"
-        },
-        {
-          "title": "Oil & Gas Development Company",
-          "url": "https://www.ogdcl.com",
-          "icon": "https://img.icons8.com/color/96/gas.png"
-        }
-      ]
+      "title": "National Jobs Portal",
+      "category": "Jobs",
+      "url": "https://www.njp.gov.pk",
+      "icon": "https://img.icons8.com/color/96/find-matching-job.png"
     },
     {
-      "name": "Overseas Pakistanis",
-      "websites": [
-        {
-          "title": "Ministry of Overseas Pakistanis",
-          "url": "https://www.ophrd.gov.pk",
-          "icon": "https://img.icons8.com/color/96/globe.png"
-        },
-        {
-          "title": "Overseas Pakistanis Foundation",
-          "url": "https://www.opf.org.pk",
-          "icon": "https://img.icons8.com/color/96/conference.png"
-        },
-        {
-          "title": "Bureau of Emigration",
-          "url": "https://beoe.gov.pk",
-          "icon": "https://img.icons8.com/color/96/passport.png"
-        }
-      ]
+      "title": "FPSC (Federal Jobs)",
+      "category": "Jobs",
+      "url": "https://www.fpsc.gov.pk",
+      "icon": "https://img.icons8.com/color/96/job.png"
     },
     {
-      "name": "Pakistan Embassies (Gulf & Europe)",
-      "websites": [
-        {
-          "title": "Pakistan Embassy UAE",
-          "url": "https://pakembassyuae.gov.pk",
-          "icon": "https://img.icons8.com/color/96/united-arab-emirates.png"
-        },
-        {
-          "title": "Pakistan Embassy Saudi Arabia",
-          "url": "https://pakembassyksa.com",
-          "icon": "https://img.icons8.com/color/96/saudi-arabia.png"
-        },
-        {
-          "title": "Pakistan High Commission UK",
-          "url": "https://pakistanhighcommissionuk.gov.pk",
-          "icon": "https://img.icons8.com/color/96/great-britain.png"
-        },
-        {
-          "title": "Pakistan Embassy Germany",
-          "url": "https://pakembassyberlin.de",
-          "icon": "https://img.icons8.com/color/96/germany.png"
-        },
-        {
-          "title": "Pakistan Embassy France",
-          "url": "https://pakembassyparis.gov.pk",
-          "icon": "https://img.icons8.com/color/96/france.png"
-        },
-        {
-          "title": "Pakistan Embassy Italy",
-          "url": "https://www.pakistanembassy.it",
-          "icon": "https://img.icons8.com/color/96/italy.png"
-        }
-      ]
+      "title": "PPSC (Punjab Jobs)",
+      "category": "Jobs",
+      "url": "https://www.ppsc.gop.pk",
+      "icon": "https://img.icons8.com/color/96/test-passed.png"
+    },
+    {
+      "title": "FIA Official",
+      "category": "Security",
+      "url": "https://www.fia.gov.pk",
+      "icon": "https://img.icons8.com/color/96/police-badge.png"
+    },
+    {
+      "title": "Federal Board of Revenue",
+      "category": "Tax",
+      "url": "https://www.fbr.gov.pk",
+      "icon": "https://img.icons8.com/color/96/tax.png"
+    },
+    {
+      "title": "State Bank",
+      "category": "Tax",
+      "url": "https://www.sbp.org.pk",
+      "icon": "https://img.icons8.com/color/96/bank.png"
+    },
+    {
+      "title": "Pakistan Railways",
+      "category": "Transport",
+      "url": "https://www.pakrail.gov.pk",
+      "icon": "https://img.icons8.com/color/96/train.png"
+    },
+    {
+      "title": "Overseas Foundation",
+      "category": "Overseas",
+      "url": "https://www.opf.org.pk",
+      "icon": "https://img.icons8.com/color/96/conference.png"
+    },
+    {
+      "title": "Embassy Saudi Arabia",
+      "category": "Embassies",
+      "url": "https://pakembassyksa.com",
+      "icon": "https://img.icons8.com/color/96/saudi-arabia.png"
+    },
+    {
+      "title": "High Commission UK",
+      "category": "Embassies",
+      "url": "https://pakistanhighcommissionuk.gov.pk",
+      "icon": "https://img.icons8.com/color/96/great-britain.png"
     }
   ]
 }
