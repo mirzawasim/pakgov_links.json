@@ -1,6 +1,60 @@
 {
   "websites": [
     {
+      "title": "LESCO (Electricity Lahore)",
+      "category": "Utilities",
+      "url": "https://bill.pitc.com.pk/lescobill",
+      "icon": "https://img.icons8.com/color/96/electricity.png"
+    },
+    {
+      "title": "K-Electric (Karachi)",
+      "category": "Utilities",
+      "url": "https://www.ke.com.pk/customer-services/bill-payment-options/",
+      "icon": "https://img.icons8.com/color/96/flash-on.png"
+    },
+    {
+      "title": "IESCO (Islamabad)",
+      "category": "Utilities",
+      "url": "https://iesco.com.pk/index.php/customer-services/bill-view-print",
+      "icon": "https://img.icons8.com/color/96/electricity.png"
+    },
+    {
+      "title": "SNGPL Gas (North)",
+      "category": "Utilities",
+      "url": "https://www.sngpl.com.pk/login.jsp?pgid=636",
+      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
+    },
+    {
+      "title": "SSGC Gas (South)",
+      "category": "Utilities",
+      "url": "https://www.ssgc.com.pk/web/?page_id=233",
+      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
+    },
+    {
+      "title": "NADRA Official",
+      "category": "Identity",
+      "url": "https://www.nadra.gov.pk",
+      "icon": "https://img.icons8.com/color/96/id-verified.png"
+    },
+    {
+      "title": "HEC Portal",
+      "category": "Education",
+      "url": "https://www.hec.gov.pk",
+      "icon": "https://img.icons8.com/color/96/graduation-cap.png"
+    },
+    {
+      "title": "National Jobs Portal",
+      "category": "Jobs",
+      "url": "https://www.njp.gov.pk",
+      "icon": "https://img.icons8.com/color/96/find-matching-job.png"
+    },
+    {
+      "title": "FBR Tax",
+      "category": "Tax",
+      "url": "https://www.fbr.gov.pk",
+      "icon": "https://img.icons8.com/color/96/tax.png"
+    },
+    {
       "title": "NADRA Official",
       "category": "Identity",
       "url": "https://www.nadra.gov.pk",
@@ -18,6 +72,7 @@
       "url": "https://www.hec.gov.pk",
       "icon": "https://img.icons8.com/color/96/graduation-cap.png"
     },
+    
     {
       "title": "BISE Boards",
       "category": "Education",
