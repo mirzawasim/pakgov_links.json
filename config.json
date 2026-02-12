@@ -1,166 +1,57 @@
 {
   "app_info": {
     "version": "1.0.0",
-    "disclaimer": "This app is a directory of official government links. We are not an official government entity.",
-    "english_date": "Thursday, 12 Feb 2026",
-    "islamic_date": "24 Shaban 1447 AH"
+    "disclaimer": "This app is a directory of official government links. We are not an official government entity."
   },
   "daily_stats": {
-    "petrol_price": "272.89",
-    "dollar_rate": "278.40",
-    "gold_price": "221,500",
+    "petrol": "272.89",
+    "dollar": "278.40",
+    "gold": "221,500",
+    "english_date": "Thursday, 12 Feb 2026",
+    "islamic_date": "24 Shaban 1447 AH",
     "update_note": "Last Updated: 12 Feb 2026"
   },
   "websites": [
-    {
-      "title": "NADRA Official",
-      "category": "Identity",
-      "url": "https://www.nadra.gov.pk",
-      "icon": "https://img.icons8.com/color/96/id-verified.png"
-    },
-    {
-      "title": "NADRA Overseas ID",
-      "category": "Identity",
-      "url": "https://id.nadra.gov.pk",
-      "icon": "https://img.icons8.com/color/96/passport.png"
-    },
-    {
-      "title": "Directorate of Passport",
-      "category": "Identity",
-      "url": "https://dgip.gov.pk/",
-      "icon": "https://img.icons8.com/color/96/travel-book.png"
-    },
-    {
-      "title": "FBR Tax Filing (Iris)",
-      "category": "Tax",
-      "url": "https://iris.fbr.gov.pk",
-      "icon": "https://img.icons8.com/color/96/tax.png"
-    },
-    {
-      "title": "FBR NTN Verification",
-      "category": "Tax",
-      "url": "https://e.fbr.gov.pk",
-      "icon": "https://img.icons8.com/color/96/search-property.png"
-    },
-    {
-      "title": "State Bank (SBP)",
-      "category": "Finance",
-      "url": "https://www.sbp.org.pk",
-      "icon": "https://img.icons8.com/color/96/bank.png"
-    },
-    {
-      "title": "HEC Degree Attestation",
-      "category": "Education",
-      "url": "https://www.hec.gov.pk",
-      "icon": "https://img.icons8.com/color/96/graduation-cap.png"
-    },
-    {
-      "title": "All BISE Board Results",
-      "category": "Education",
-      "url": "https://www.biseweb.com",
-      "icon": "https://img.icons8.com/color/96/school.png"
-    },
-    {
-      "title": "National Jobs Portal (NJP)",
-      "category": "Jobs",
-      "url": "https://www.njp.gov.pk",
-      "icon": "https://img.icons8.com/color/96/find-matching-job.png"
-    },
-    {
-      "title": "Federal Jobs (FPSC)",
-      "category": "Jobs",
-      "url": "https://www.fpsc.gov.pk",
-      "icon": "https://img.icons8.com/color/96/job.png"
-    },
-    {
-      "title": "Punjab Jobs (PPSC)",
-      "category": "Jobs",
-      "url": "https://www.ppsc.gop.pk",
-      "icon": "https://img.icons8.com/color/96/test-passed.png"
-    },
-    {
-      "title": "LESCO (Lahore Bill)",
-      "category": "Utilities",
-      "url": "https://bill.pitc.com.pk/lescobill",
-      "icon": "https://img.icons8.com/color/96/electricity.png"
-    },
-    {
-      "title": "K-Electric (Karachi Bill)",
-      "category": "Utilities",
-      "url": "https://www.ke.com.pk",
-      "icon": "https://img.icons8.com/color/96/flash-on.png"
-    },
-    {
-      "title": "IESCO (Islamabad Bill)",
-      "category": "Utilities",
-      "url": "https://iesco.com.pk/index.php/customer-services/bill-view-print",
-      "icon": "https://img.icons8.com/color/96/electricity.png"
-    },
-    {
-      "title": "MEPCO (Multan Bill)",
-      "category": "Utilities",
-      "url": "https://bill.pitc.com.pk/mepcobill",
-      "icon": "https://img.icons8.com/color/96/lightning-bolt.png"
-    },
-    {
-      "title": "PESCO (Peshawar Bill)",
-      "category": "Utilities",
-      "url": "https://bill.pitc.com.pk/pescobill",
-      "icon": "https://img.icons8.com/color/96/electricity.png"
-    },
-    {
-      "title": "GEPCO (Gujranwala Bill)",
-      "category": "Utilities",
-      "url": "https://bill.pitc.com.pk/gepcobill",
-      "icon": "https://img.icons8.com/color/96/electricity.png"
-    },
-    {
-      "title": "SNGPL (Gas North)",
-      "category": "Utilities",
-      "url": "https://www.sngpl.com.pk",
-      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
-    },
-    {
-      "title": "SSGC (Gas South)",
-      "category": "Utilities",
-      "url": "https://www.ssgc.com.pk",
-      "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
-    },
-    {
-      "title": "FIA Cybercrime Portal",
-      "category": "Security",
-      "url": "https://www.fia.gov.pk",
-      "icon": "https://img.icons8.com/color/96/police-badge.png"
-    },
-    {
-      "title": "Sehat Card (PM Health)",
-      "category": "Health",
-      "url": "https://www.pmhealthprogram.gov.pk",
-      "icon": "https://img.icons8.com/color/96/hospital.png"
-    },
-    {
-      "title": "Pakistan Railways (E-Ticket)",
-      "category": "Transport",
-      "url": "https://www.pakrail.gov.pk",
-      "icon": "https://img.icons8.com/color/96/train.png"
-    },
-    {
-      "title": "Overseas Pakistanis Foundation",
-      "category": "Overseas",
-      "url": "https://www.opf.org.pk",
-      "icon": "https://img.icons8.com/color/96/conference.png"
-    },
-    {
-      "title": "High Commission UK",
-      "category": "Embassies",
-      "url": "https://www.phclondon.org",
-      "icon": "https://img.icons8.com/color/96/great-britain.png"
-    },
-    {
-      "title": "Embassy UAE",
-      "category": "Embassies",
-      "url": "https://pakembassyuae.gov.pk",
-      "icon": "https://img.icons8.com/color/96/united-arab-emirates.png"
-    }
+    { "title": "NADRA Official", "category": "Identity", "url": "https://www.nadra.gov.pk", "icon": "https://img.icons8.com/color/96/id-verified.png" },
+    { "title": "NADRA Overseas ID", "category": "Identity", "url": "https://id.nadra.gov.pk", "icon": "https://img.icons8.com/color/96/passport.png" },
+    { "title": "Directorate of Passport", "category": "Identity", "url": "https://dgip.gov.pk/", "icon": "https://img.icons8.com/color/96/travel-book.png" },
+
+    { "title": "FBR Tax Filing (Iris)", "category": "Tax", "url": "https://iris.fbr.gov.pk", "icon": "https://img.icons8.com/color/96/tax.png" },
+    { "title": "FBR NTN Verification", "category": "Tax", "url": "https://e.fbr.gov.pk", "icon": "https://img.icons8.com/color/96/search-property.png" },
+    { "title": "State Bank (SBP)", "category": "Finance", "url": "https://www.sbp.org.pk", "icon": "https://img.icons8.com/color/96/bank.png" },
+
+    { "title": "HEC Degree Attestation", "category": "Education", "url": "https://www.hec.gov.pk", "icon": "https://img.icons8.com/color/96/graduation-cap.png" },
+    { "title": "All BISE Board Results", "category": "Education", "url": "https://www.biseweb.com", "icon": "https://img.icons8.com/color/96/school.png" },
+
+    { "title": "National Jobs Portal (NJP)", "category": "Jobs", "url": "https://www.njp.gov.pk", "icon": "https://img.icons8.com/color/96/find-matching-job.png" },
+    { "title": "Federal Jobs (FPSC)", "category": "Jobs", "url": "https://www.fpsc.gov.pk", "icon": "https://img.icons8.com/color/96/job.png" },
+    { "title": "Punjab Jobs (PPSC)", "category": "Jobs", "url": "https://www.ppsc.gop.pk", "icon": "https://img.icons8.com/color/96/test-passed.png" },
+
+    { "title": "LESCO (Lahore Bill)", "category": "Utilities", "url": "https://bill.pitc.com.pk/lescobill", "icon": "https://img.icons8.com/color/96/electricity.png" },
+    { "title": "K-Electric (Karachi Bill)", "category": "Utilities", "url": "https://www.ke.com.pk", "icon": "https://img.icons8.com/color/96/flash-on.png" },
+    { "title": "IESCO (Islamabad Bill)", "category": "Utilities", "url": "https://iesco.com.pk/index.php/customer-services/bill-view-print", "icon": "https://img.icons8.com/color/96/electricity.png" },
+    { "title": "MEPCO (Multan Bill)", "category": "Utilities", "url": "https://bill.pitc.com.pk/mepcobill", "icon": "https://img.icons8.com/color/96/lightning-bolt.png" },
+    { "title": "PESCO (Peshawar Bill)", "category": "Utilities", "url": "https://bill.pitc.com.pk/pescobill", "icon": "https://img.icons8.com/color/96/electricity.png" },
+    { "title": "GEPCO (Gujranwala Bill)", "category": "Utilities", "url": "https://bill.pitc.com.pk/gepcobill", "icon": "https://img.icons8.com/color/96/electricity.png" },
+    { "title": "SNGPL (Gas North)", "category": "Utilities", "url": "https://www.sngpl.com.pk", "icon": "https://img.icons8.com/color/96/gas-pipeline.png" },
+    { "title": "SSGC (Gas South)", "category": "Utilities", "url": "https://www.ssgc.com.pk", "icon": "https://img.icons8.com/color/96/gas-pipeline.png" },
+
+    { "title": "FIA Cybercrime Portal", "category": "Security", "url": "https://www.fia.gov.pk", "icon": "https://img.icons8.com/color/96/police-badge.png" },
+    { "title": "Sehat Card (PM Health)", "category": "Health", "url": "https://www.pmhealthprogram.gov.pk", "icon": "https://img.icons8.com/color/96/hospital.png" },
+    { "title": "Pakistan Railways (E-Ticket)", "category": "Transport", "url": "https://www.pakrail.gov.pk", "icon": "https://img.icons8.com/color/96/train.png" },
+
+    { "title": "Overseas Power of Attorney", "category": "Overseas", "url": "https://poa.nadra.gov.pk/", "icon": "https://img.icons8.com/color/96/lawyer.png" },
+    { "title": "Bureau of Emigration", "category": "Overseas", "url": "https://beoe.gov.pk/", "icon": "https://img.icons8.com/color/96/document.png" },
+    { "title": "Overseas Foundation (OPF)", "category": "Overseas", "url": "https://www.opf.org.pk", "icon": "https://img.icons8.com/color/96/conference.png" },
+    { "title": "Roshan Digital Account", "category": "Overseas", "url": "https://www.sbp.org.pk/RDA/index.html", "icon": "https://img.icons8.com/color/96/bank-cards.png" },
+
+    { "title": "Verify Degree (HEC)", "category": "Documents", "url": "https://is.hec.gov.pk/", "icon": "https://img.icons8.com/color/96/diploma.png" },
+    { "title": "Punjab Land Records (Fard)", "category": "Documents", "url": "https://www.punjab-zameen.gov.pk/", "icon": "https://img.icons8.com/color/96/field.png" },
+    { "title": "Verify Tax Documents", "category": "Documents", "url": "https://e.fbr.gov.pk/esdp/", "icon": "https://img.icons8.com/color/96/verified-account.png" },
+    { "title": "Driving License Verify", "category": "Documents", "url": "https://dlims.punjab.gov.pk/verify/", "icon": "https://img.icons8.com/color/96/identity-disk.png" },
+
+    { "title": "High Commission UK", "category": "Embassies", "url": "https://www.phclondon.org", "icon": "https://img.icons8.com/color/96/great-britain.png" },
+    { "title": "Embassy UAE", "category": "Embassies", "url": "https://pakembassyuae.gov.pk", "icon": "https://img.icons8.com/color/96/united-arab-emirates.png" },
+    { "title": "Embassy Saudi Arabia", "category": "Embassies", "url": "https://pakembassyksa.com/", "icon": "https://img.icons8.com/color/96/saudi-arabia.png" }
   ]
 }
