@@ -1,9 +1,15 @@
 {
+  "app_info": {
+    "version": "1.0.0",
+    "disclaimer": "This app is a directory of official government links. We are not an official government entity.",
+    "english_date": "Thursday, 12 Feb 2026",
+    "islamic_date": "24 Shaban 1447 AH"
+  },
   "daily_stats": {
     "petrol_price": "272.89",
     "dollar_rate": "278.40",
     "gold_price": "221,500",
-    "update_note": "Last Updated: Feb 2026"
+    "update_note": "Last Updated: 12 Feb 2026"
   },
   "websites": [
     {
@@ -25,7 +31,7 @@
       "icon": "https://img.icons8.com/color/96/travel-book.png"
     },
     {
-      "title": "FBR Tax Filing",
+      "title": "FBR Tax Filing (Iris)",
       "category": "Tax",
       "url": "https://iris.fbr.gov.pk",
       "icon": "https://img.icons8.com/color/96/tax.png"
@@ -49,13 +55,13 @@
       "icon": "https://img.icons8.com/color/96/graduation-cap.png"
     },
     {
-      "title": "All Board Results (BISE)",
+      "title": "All BISE Board Results",
       "category": "Education",
       "url": "https://www.biseweb.com",
       "icon": "https://img.icons8.com/color/96/school.png"
     },
     {
-      "title": "National Jobs Portal",
+      "title": "National Jobs Portal (NJP)",
       "category": "Jobs",
       "url": "https://www.njp.gov.pk",
       "icon": "https://img.icons8.com/color/96/find-matching-job.png"
@@ -73,19 +79,13 @@
       "icon": "https://img.icons8.com/color/96/test-passed.png"
     },
     {
-      "title": "Sindh Jobs (SPSC)",
-      "category": "Jobs",
-      "url": "https://www.spsc.gov.pk",
-      "icon": "https://img.icons8.com/color/96/document.png"
-    },
-    {
       "title": "LESCO (Lahore Bill)",
       "category": "Utilities",
       "url": "https://bill.pitc.com.pk/lescobill",
       "icon": "https://img.icons8.com/color/96/electricity.png"
     },
     {
-      "title": "K-Electric (Karachi)",
+      "title": "K-Electric (Karachi Bill)",
       "category": "Utilities",
       "url": "https://www.ke.com.pk",
       "icon": "https://img.icons8.com/color/96/flash-on.png"
@@ -103,9 +103,15 @@
       "icon": "https://img.icons8.com/color/96/lightning-bolt.png"
     },
     {
-      "title": "FESCO (Faisalabad Bill)",
+      "title": "PESCO (Peshawar Bill)",
       "category": "Utilities",
-      "url": "https://bill.pitc.com.pk/fescobill",
+      "url": "https://bill.pitc.com.pk/pescobill",
+      "icon": "https://img.icons8.com/color/96/electricity.png"
+    },
+    {
+      "title": "GEPCO (Gujranwala Bill)",
+      "category": "Utilities",
+      "url": "https://bill.pitc.com.pk/gepcobill",
       "icon": "https://img.icons8.com/color/96/electricity.png"
     },
     {
@@ -121,40 +127,28 @@
       "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
     },
     {
-      "title": "FIA Cybercrime Wing",
+      "title": "FIA Cybercrime Portal",
       "category": "Security",
       "url": "https://www.fia.gov.pk",
       "icon": "https://img.icons8.com/color/96/police-badge.png"
     },
     {
-      "title": "Sehat Card (Health)",
+      "title": "Sehat Card (PM Health)",
       "category": "Health",
       "url": "https://www.pmhealthprogram.gov.pk",
       "icon": "https://img.icons8.com/color/96/hospital.png"
     },
     {
-      "title": "Pakistan Railways",
+      "title": "Pakistan Railways (E-Ticket)",
       "category": "Transport",
       "url": "https://www.pakrail.gov.pk",
       "icon": "https://img.icons8.com/color/96/train.png"
     },
     {
-      "title": "Motorway Police (NHA)",
-      "category": "Transport",
-      "url": "https://nha.gov.pk",
-      "icon": "https://img.icons8.com/color/96/road.png"
-    },
-    {
-      "title": "Overseas Foundation",
+      "title": "Overseas Pakistanis Foundation",
       "category": "Overseas",
       "url": "https://www.opf.org.pk",
       "icon": "https://img.icons8.com/color/96/conference.png"
-    },
-    {
-      "title": "Embassy Saudi Arabia",
-      "category": "Embassies",
-      "url": "https://www.pakembassyksa.com",
-      "icon": "https://img.icons8.com/color/96/saudi-arabia.png"
     },
     {
       "title": "High Commission UK",
