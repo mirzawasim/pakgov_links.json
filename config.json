@@ -6,6 +6,13 @@
       "url": "https://www.nadra.gov.pk",
       "icon": "https://img.icons8.com/color/96/id-verified.png"
     },
+        {
+      "petrol_price": "279.00",
+      "dollar_rate": "278.50",
+      "gold_price": "242,000",
+      "websites": [ ... ]
+    }
+    
     {
       "title": "NADRA Overseas",
       "category": "Identity",
