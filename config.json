@@ -1,4 +1,10 @@
 {
+  "daily_stats": {
+    "petrol_price": "272.89",
+    "dollar_rate": "278.40",
+    "gold_price": "221,500",
+    "update_note": "Last Updated: Feb 2026"
+  },
   "websites": [
     {
       "title": "NADRA Official",
@@ -6,48 +12,47 @@
       "url": "https://www.nadra.gov.pk",
       "icon": "https://img.icons8.com/color/96/id-verified.png"
     },
-        {
-      "petrol_price": "279.00",
-      "dollar_rate": "278.50",
-      "gold_price": "242,000",
-      "websites": [ ... ]
-    }
-    
     {
-      "title": "NADRA Overseas",
+      "title": "NADRA Overseas ID",
       "category": "Identity",
       "url": "https://id.nadra.gov.pk",
       "icon": "https://img.icons8.com/color/96/passport.png"
     },
     {
-      "title": "FBR (Federal Board of Revenue)",
+      "title": "Directorate of Passport",
+      "category": "Identity",
+      "url": "https://dgip.gov.pk/",
+      "icon": "https://img.icons8.com/color/96/travel-book.png"
+    },
+    {
+      "title": "FBR Tax Filing",
       "category": "Tax",
-      "url": "https://www.fbr.gov.pk",
+      "url": "https://iris.fbr.gov.pk",
       "icon": "https://img.icons8.com/color/96/tax.png"
     },
     {
-      "title": "State Bank of Pakistan",
+      "title": "FBR NTN Verification",
+      "category": "Tax",
+      "url": "https://e.fbr.gov.pk",
+      "icon": "https://img.icons8.com/color/96/search-property.png"
+    },
+    {
+      "title": "State Bank (SBP)",
       "category": "Finance",
       "url": "https://www.sbp.org.pk",
       "icon": "https://img.icons8.com/color/96/bank.png"
     },
     {
-      "title": "HEC Pakistan",
+      "title": "HEC Degree Attestation",
       "category": "Education",
       "url": "https://www.hec.gov.pk",
       "icon": "https://img.icons8.com/color/96/graduation-cap.png"
     },
     {
-      "title": "BISE Boards",
+      "title": "All Board Results (BISE)",
       "category": "Education",
       "url": "https://www.biseweb.com",
       "icon": "https://img.icons8.com/color/96/school.png"
-    },
-    {
-      "title": "Punjab Education Department",
-      "category": "Education",
-      "url": "https://www.punjab.gov.pk/education",
-      "icon": "https://img.icons8.com/color/96/classroom.png"
     },
     {
       "title": "National Jobs Portal",
@@ -56,51 +61,51 @@
       "icon": "https://img.icons8.com/color/96/find-matching-job.png"
     },
     {
-      "title": "FPSC (Federal Public Service Commission)",
+      "title": "Federal Jobs (FPSC)",
       "category": "Jobs",
       "url": "https://www.fpsc.gov.pk",
       "icon": "https://img.icons8.com/color/96/job.png"
     },
     {
-      "title": "PPSC (Punjab Public Service Commission)",
+      "title": "Punjab Jobs (PPSC)",
       "category": "Jobs",
       "url": "https://www.ppsc.gop.pk",
       "icon": "https://img.icons8.com/color/96/test-passed.png"
     },
     {
-      "title": "FIA Pakistan",
-      "category": "Security",
-      "url": "https://www.fia.gov.pk",
-      "icon": "https://img.icons8.com/color/96/police-badge.png"
+      "title": "Sindh Jobs (SPSC)",
+      "category": "Jobs",
+      "url": "https://www.spsc.gov.pk",
+      "icon": "https://img.icons8.com/color/96/document.png"
     },
     {
-      "title": "NIH Pakistan",
-      "category": "Health",
-      "url": "https://www.nih.org.pk",
-      "icon": "https://img.icons8.com/color/96/hospital.png"
-    },
-    {
-      "title": "Pakistan Railways",
-      "category": "Transport",
-      "url": "https://www.pakrail.gov.pk",
-      "icon": "https://img.icons8.com/color/96/train.png"
-    },
-    {
-      "title": "LESCO (Lahore Electric Supply)",
+      "title": "LESCO (Lahore Bill)",
       "category": "Utilities",
-      "url": "https://www.lesco.gov.pk",
+      "url": "https://bill.pitc.com.pk/lescobill",
       "icon": "https://img.icons8.com/color/96/electricity.png"
     },
     {
-      "title": "K-Electric Karachi",
+      "title": "K-Electric (Karachi)",
       "category": "Utilities",
       "url": "https://www.ke.com.pk",
       "icon": "https://img.icons8.com/color/96/flash-on.png"
     },
     {
-      "title": "IESCO Islamabad",
+      "title": "IESCO (Islamabad Bill)",
       "category": "Utilities",
-      "url": "https://www.iesco.com.pk",
+      "url": "https://iesco.com.pk/index.php/customer-services/bill-view-print",
+      "icon": "https://img.icons8.com/color/96/electricity.png"
+    },
+    {
+      "title": "MEPCO (Multan Bill)",
+      "category": "Utilities",
+      "url": "https://bill.pitc.com.pk/mepcobill",
+      "icon": "https://img.icons8.com/color/96/lightning-bolt.png"
+    },
+    {
+      "title": "FESCO (Faisalabad Bill)",
+      "category": "Utilities",
+      "url": "https://bill.pitc.com.pk/fescobill",
       "icon": "https://img.icons8.com/color/96/electricity.png"
     },
     {
@@ -116,22 +121,52 @@
       "icon": "https://img.icons8.com/color/96/gas-pipeline.png"
     },
     {
-      "title": "Overseas Pakistanis Foundation",
+      "title": "FIA Cybercrime Wing",
+      "category": "Security",
+      "url": "https://www.fia.gov.pk",
+      "icon": "https://img.icons8.com/color/96/police-badge.png"
+    },
+    {
+      "title": "Sehat Card (Health)",
+      "category": "Health",
+      "url": "https://www.pmhealthprogram.gov.pk",
+      "icon": "https://img.icons8.com/color/96/hospital.png"
+    },
+    {
+      "title": "Pakistan Railways",
+      "category": "Transport",
+      "url": "https://www.pakrail.gov.pk",
+      "icon": "https://img.icons8.com/color/96/train.png"
+    },
+    {
+      "title": "Motorway Police (NHA)",
+      "category": "Transport",
+      "url": "https://nha.gov.pk",
+      "icon": "https://img.icons8.com/color/96/road.png"
+    },
+    {
+      "title": "Overseas Foundation",
       "category": "Overseas",
       "url": "https://www.opf.org.pk",
       "icon": "https://img.icons8.com/color/96/conference.png"
     },
     {
-      "title": "Pakistan Embassy Saudi Arabia",
+      "title": "Embassy Saudi Arabia",
       "category": "Embassies",
       "url": "https://www.pakembassyksa.com",
       "icon": "https://img.icons8.com/color/96/saudi-arabia.png"
     },
     {
-      "title": "Pakistan High Commission UK",
+      "title": "High Commission UK",
       "category": "Embassies",
       "url": "https://www.phclondon.org",
       "icon": "https://img.icons8.com/color/96/great-britain.png"
+    },
+    {
+      "title": "Embassy UAE",
+      "category": "Embassies",
+      "url": "https://pakembassyuae.gov.pk",
+      "icon": "https://img.icons8.com/color/96/united-arab-emirates.png"
     }
   ]
 }
