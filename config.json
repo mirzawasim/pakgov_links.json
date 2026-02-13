@@ -1,19 +1,19 @@
 {
   "app_meta": {
-    "version": "14.0",
+    "version": "15.0",
     "app_name": "Pak E-Services Pro",
     "theme_color": "#00695C",
     "disclaimer": "This app is an independent directory. Not affiliated with the Govt of Pakistan."
   },
   "navigation_drawer": [
-    { "title": "All Services", "id": "nav_all", "icon_key": "ic_home" },
-    { "title": "Identity & NADRA", "id": "nav_identity", "icon_key": "ic_id" },
-    { "title": "Electricity Bills", "id": "nav_electricity", "icon_key": "ic_bolt" },
-    { "title": "Gas & Water Bills", "id": "nav_gas", "icon_key": "ic_water" },
-    { "title": "Tax & Vehicle", "id": "nav_tax", "icon_key": "ic_car" },
-    { "title": "Jobs & Careers", "id": "nav_jobs", "icon_key": "ic_work" },
-    { "title": "Education Boards", "id": "nav_education", "icon_key": "ic_school" },
-    { "title": "Social & Health", "id": "nav_social", "icon_key": "ic_health" }
+    { "title": "Home / Dashboard", "id": "nav_all", "icon_url": "https://img.icons8.com/fluency/48/home.png" },
+    { "title": "Identity & NADRA", "id": "Identity & NADRA", "icon_url": "https://img.icons8.com/fluency/48/id-card.png" },
+    { "title": "Electricity Bills", "id": "Electricity Bills", "icon_url": "https://img.icons8.com/fluency/48/electricity.png" },
+    { "title": "Gas & Water Bills", "id": "Gas & Water Bills", "icon_url": "https://img.icons8.com/fluency/48/gas-pipeline.png" },
+    { "title": "Tax & Vehicle", "id": "Tax & Vehicle", "icon_url": "https://img.icons8.com/fluency/48/car.png" },
+    { "title": "Jobs & Careers", "id": "Jobs & Careers", "icon_url": "https://img.icons8.com/fluency/48/briefcase.png" },
+    { "title": "Education Boards", "id": "Education Boards", "icon_url": "https://img.icons8.com/fluency/48/graduation-cap.png" },
+    { "title": "Social & Health", "id": "Social & Health", "icon_url": "https://img.icons8.com/fluency/48/heart-health.png" }
   ],
   "dashboard_layout": [
     {
@@ -21,18 +21,18 @@
       "title": "Smart Utilities (Offline)",
       "display_style": "grid_3_columns",
       "items": [
-        { "id": "tool_land", "title": "Land Converter", "subtitle": "Marla / Kanal", "icon_url": "https://img.icons8.com/fluency/96/paddy-field.png", "action": "native_fragment", "target": "FragmentLandCalc" },
-        { "id": "tool_bill", "title": "Bill Estimator", "subtitle": "Units to Cost", "icon_url": "https://img.icons8.com/fluency/96/calculator.png", "action": "native_fragment", "target": "FragmentBillCalc" },
-        { "id": "tool_zakat", "title": "Zakat Calc", "subtitle": "2.5% Asset", "icon_url": "https://img.icons8.com/fluency/96/coins.png", "action": "native_fragment", "target": "FragmentZakat" },
-        { "id": "tool_age", "title": "Age Calc", "subtitle": "Years & Days", "icon_url": "https://img.icons8.com/fluency/96/calendar.png", "action": "native_fragment", "target": "FragmentAge" },
-        { "id": "tool_merit", "title": "Merit Calc", "subtitle": "Aggregate", "icon_url": "https://img.icons8.com/fluency/96/student-registration.png", "action": "native_fragment", "target": "FragmentMerit" },
-        { "id": "tool_bmi", "title": "Health BMI", "subtitle": "Body Mass", "icon_url": "https://img.icons8.com/fluency/96/heart-health.png", "action": "native_fragment", "target": "FragmentBMI" },
-        { "id": "tool_tax", "title": "Salary Tax", "subtitle": "FBR Slabs", "icon_url": "https://img.icons8.com/fluency/96/tax.png", "action": "native_fragment", "target": "FragmentTax" },
-        { "id": "tool_fuel", "title": "Fuel Cost", "subtitle": "Trip Expense", "icon_url": "https://img.icons8.com/fluency/96/gas-station.png", "action": "native_fragment", "target": "FragmentFuel" },
-        { "id": "tool_unit", "title": "Unit Conv", "subtitle": "Weight/Length", "icon_url": "https://img.icons8.com/fluency/96/ruler.png", "action": "native_fragment", "target": "FragmentUnit" },
-        { "id": "tool_gpa", "title": "GPA Calc", "subtitle": "University GPA", "icon_url": "https://img.icons8.com/fluency/96/test-results.png", "action": "native_fragment", "target": "FragmentGPA" },
-        { "id": "tool_tasbeeh", "title": "Tasbeeh", "subtitle": "Digital Counter", "icon_url": "https://img.icons8.com/fluency/96/beads.png", "action": "native_fragment", "target": "FragmentTasbeeh" },
-        { "id": "tool_loan", "title": "Loan EMI", "subtitle": "Bank Installment", "icon_url": "https://img.icons8.com/fluency/96/bank.png", "action": "native_fragment", "target": "FragmentLoan" }
+        { "id": "tool_land", "title": "Land Converter", "subtitle": "Marla / Kanal", "icon_url": "https://img.icons8.com/fluency/96/paddy-field.png", "action": "native_fragment" },
+        { "id": "tool_bill", "title": "Bill Estimator", "subtitle": "Units to Cost", "icon_url": "https://img.icons8.com/fluency/96/calculator.png", "action": "native_fragment" },
+        { "id": "tool_zakat", "title": "Zakat Calc", "subtitle": "2.5% Asset", "icon_url": "https://img.icons8.com/fluency/96/coins.png", "action": "native_fragment" },
+        { "id": "tool_age", "title": "Age Calc", "subtitle": "Years & Days", "icon_url": "https://img.icons8.com/fluency/96/calendar.png", "action": "native_fragment" },
+        { "id": "tool_merit", "title": "Merit Calc", "subtitle": "Aggregate", "icon_url": "https://img.icons8.com/fluency/96/student-registration.png", "action": "native_fragment" },
+        { "id": "tool_bmi", "title": "Health BMI", "subtitle": "Body Mass", "icon_url": "https://img.icons8.com/fluency/96/heart-health.png", "action": "native_fragment" },
+        { "id": "tool_tax", "title": "Salary Tax", "subtitle": "FBR Slabs", "icon_url": "https://img.icons8.com/fluency/96/tax.png", "action": "native_fragment" },
+        { "id": "tool_fuel", "title": "Fuel Cost", "subtitle": "Trip Expense", "icon_url": "https://img.icons8.com/fluency/96/gas-station.png", "action": "native_fragment" },
+        { "id": "tool_unit", "title": "Unit Conv", "subtitle": "Weight/Length", "icon_url": "https://img.icons8.com/fluency/96/ruler.png", "action": "native_fragment" },
+        { "id": "tool_gpa", "title": "GPA Calc", "subtitle": "University GPA", "icon_url": "https://img.icons8.com/fluency/96/test-results.png", "action": "native_fragment" },
+        { "id": "tool_tasbeeh", "title": "Tasbeeh", "subtitle": "Digital Counter", "icon_url": "https://img.icons8.com/fluency/96/beads.png", "action": "native_fragment" },
+        { "id": "tool_loan", "title": "Loan EMI", "subtitle": "Bank Installment", "icon_url": "https://img.icons8.com/fluency/96/bank.png", "action": "native_fragment" }
       ]
     },
     {
@@ -40,22 +40,22 @@
       "title": "Government Portals",
       "display_style": "list_linear",
       "items": [
-        { "title": "NADRA ID Central", "category": "Identity & NADRA", "url": "https://id.nadra.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/id-card.png" },
-        { "title": "Passport Renewal", "category": "Identity & NADRA", "url": "https://onlinemrp.dgip.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/passport.png" },
-        { "title": "LESCO - Lahore", "category": "Electricity Bills", "url": "https://bill.pitc.com.pk/lescobill", "icon_url": "https://img.icons8.com/fluency/96/electricity.png" },
-        { "title": "K-Electric - Karachi", "category": "Electricity Bills", "url": "https://www.ke.com.pk", "icon_url": "https://img.icons8.com/fluency/96/flash-on.png" },
-        { "title": "IESCO - Islamabad", "category": "Electricity Bills", "url": "https://bill.pitc.com.pk/iescobill", "icon_url": "https://img.icons8.com/fluency/96/light-on.png" },
-        { "title": "SNGPL Gas Bill", "category": "Gas & Water Bills", "url": "https://www.sngpl.com.pk", "icon_url": "https://img.icons8.com/fluency/96/gas-pipeline.png" },
-        { "title": "SSGC Gas Bill", "category": "Gas & Water Bills", "url": "https://www.ssgc.com.pk", "icon_url": "https://img.icons8.com/fluency/96/gas-pipeline.png" },
-        { "title": "PTCL Bill Inquiry", "category": "Gas & Water Bills", "url": "https://ptcl.com.pk/CustomerCare/BillInquiry", "icon_url": "https://img.icons8.com/fluency/96/phone.png" },
-        { "title": "FBR IRIS Tax", "category": "Tax & Vehicle", "url": "https://iris.fbr.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/stack-of-money.png" },
-        { "title": "MTMIS Punjab", "category": "Tax & Vehicle", "url": "https://mtmis.excise.punjab.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/car.png" },
-        { "title": "DLIMS License", "category": "Tax & Vehicle", "url": "https://dlims.punjab.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/identity-disk.png" },
-        { "title": "National Job Portal", "category": "Jobs & Careers", "url": "https://www.njp.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/briefcase.png" },
-        { "title": "PPSC Punjab", "category": "Jobs & Careers", "url": "https://www.ppsc.gop.pk", "icon_url": "https://img.icons8.com/fluency/96/test-passed.png" },
-        { "title": "BISE Lahore Result", "category": "Education Boards", "url": "https://www.biselahore.com", "icon_url": "https://img.icons8.com/fluency/96/graduation-cap.png" },
-        { "title": "BISP / 8171 Portal", "category": "Social & Health", "url": "https://8171.bisp.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/handshake.png" },
-        { "title": "Sehat Card Check", "category": "Social & Health", "url": "https://www.pmhealthprogram.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/hospital.png" }
+        { "title": "NADRA ID Central", "category": "Identity & NADRA", "subtitle": "Identity Card Services", "url": "https://id.nadra.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/id-card.png" },
+        { "title": "Passport Renewal", "category": "Identity & NADRA", "subtitle": "Online MRP Portal", "url": "https://onlinemrp.dgip.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/passport.png" },
+        { "title": "LESCO - Lahore", "category": "Electricity Bills", "subtitle": "Lahore Electricity Bill", "url": "https://bill.pitc.com.pk/lescobill", "icon_url": "https://img.icons8.com/fluency/96/electricity.png" },
+        { "title": "K-Electric - Karachi", "category": "Electricity Bills", "subtitle": "Karachi Bill Inquiry", "url": "https://www.ke.com.pk", "icon_url": "https://img.icons8.com/fluency/96/flash-on.png" },
+        { "title": "IESCO - Islamabad", "category": "Electricity Bills", "subtitle": "Rawalpindi & Islamabad Bill", "url": "https://bill.pitc.com.pk/iescobill", "icon_url": "https://img.icons8.com/fluency/96/light-on.png" },
+        { "title": "SNGPL Gas Bill", "category": "Gas & Water Bills", "subtitle": "Sui Northern Gas Bill", "url": "https://www.sngpl.com.pk", "icon_url": "https://img.icons8.com/fluency/96/gas-pipeline.png" },
+        { "title": "SSGC Gas Bill", "category": "Gas & Water Bills", "subtitle": "Sui Southern Gas Bill", "url": "https://www.ssgc.com.pk", "icon_url": "https://img.icons8.com/fluency/96/gas-pipeline.png" },
+        { "title": "PTCL Bill Inquiry", "category": "Gas & Water Bills", "subtitle": "Phone & Internet Bill", "url": "https://ptcl.com.pk/CustomerCare/BillInquiry", "icon_url": "https://img.icons8.com/fluency/96/phone.png" },
+        { "title": "FBR IRIS Tax", "category": "Tax & Vehicle", "subtitle": "Income Tax Return", "url": "https://iris.fbr.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/stack-of-money.png" },
+        { "title": "MTMIS Punjab", "category": "Tax & Vehicle", "subtitle": "Punjab Vehicle Check", "url": "https://mtmis.excise.punjab.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/car.png" },
+        { "title": "DLIMS License", "category": "Tax & Vehicle", "subtitle": "Driving License Check", "url": "https://dlims.punjab.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/identity-disk.png" },
+        { "title": "National Job Portal", "category": "Jobs & Careers", "subtitle": "Government Job Listings", "url": "https://www.njp.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/briefcase.png" },
+        { "title": "PPSC Punjab", "category": "Jobs & Careers", "subtitle": "Punjab Public Service", "url": "https://www.ppsc.gop.pk", "icon_url": "https://img.icons8.com/fluency/96/test-passed.png" },
+        { "title": "BISE Results", "category": "Education Boards", "subtitle": "All Boards Results", "url": "https://www.biseweb.com", "icon_url": "https://img.icons8.com/fluency/96/graduation-cap.png" },
+        { "title": "BISP / 8171 Portal", "category": "Social & Health", "subtitle": "Ehsaas Program Status", "url": "https://8171.bisp.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/handshake.png" },
+        { "title": "Sehat Card Check", "category": "Social & Health", "subtitle": "Eligibility & Hospitals", "url": "https://www.pmhealthprogram.gov.pk", "icon_url": "https://img.icons8.com/fluency/96/hospital.png" }
       ]
     }
   ]
