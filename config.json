@@ -1,69 +1,207 @@
 {
   "app_info": {
-    "version": "1.0.0",
-    "disclaimer": "This application is NOT affiliated with, endorsed by, or representing any Government entity. It is an independent directory providing publicly available official government website links for citizen convenience only.",
-    "update_note": "Links Verified & Updated: Feb 2026"
-  },
-  "daily_stats": {
-    "note": "Rates are informational only. Please verify from official sources before financial decisions.",
-    "petrol": "272.89",
-    "dollar": "278.40",
-    "gold": "221,500",
-    "english_date": "Thursday, 12 Feb 2026",
-    "islamic_date": "24 Shaban 1447 AH"
+    "version": "2.1.0",
+    "last_verified": "Feb 2026",
+    "disclaimer": "This application is NOT affiliated with any Government entity. All links are publicly available official portals."
   },
   "websites": [
-
-    { "title": "NADRA Official", "category": "Identity", "url": "https://www.nadra.gov.pk", "icon": "https://img.icons8.com/color/96/id-verified.png" },
-    { "title": "Passport Services (DGIP)", "category": "Identity", "url": "https://dgip.gov.pk", "icon": "https://img.icons8.com/color/96/passport.png" },
-    { "title": "Punjab Domicile Services", "category": "Identity", "url": "https://services.punjab.gov.pk", "icon": "https://img.icons8.com/color/96/document.png" },
-
-    { "title": "LESCO Official", "category": "Utilities", "url": "https://www.lesco.gov.pk", "icon": "https://img.icons8.com/color/96/electricity.png" },
-    { "title": "K-Electric", "category": "Utilities", "url": "https://www.ke.com.pk", "icon": "https://img.icons8.com/color/96/flash-on.png" },
-    { "title": "IESCO Official", "category": "Utilities", "url": "https://www.iesco.com.pk", "icon": "https://img.icons8.com/color/96/lightning-bolt.png" },
-    { "title": "MEPCO Official", "category": "Utilities", "url": "https://www.mepco.com.pk", "icon": "https://img.icons8.com/color/96/electricity.png" },
-    { "title": "PESCO Official", "category": "Utilities", "url": "https://www.pesco.com.pk", "icon": "https://img.icons8.com/color/96/electricity.png" },
-    { "title": "FESCO Official", "category": "Utilities", "url": "https://www.fesco.com.pk", "icon": "https://img.icons8.com/color/96/electricity.png" },
-    { "title": "SNGPL Gas", "category": "Utilities", "url": "https://www.sngpl.com.pk", "icon": "https://img.icons8.com/color/96/gas-pipeline.png" },
-    { "title": "SSGC Gas", "category": "Utilities", "url": "https://www.ssgc.com.pk", "icon": "https://img.icons8.com/color/96/gas-pipeline.png" },
-    { "title": "PTCL Official", "category": "Utilities", "url": "https://ptcl.com.pk", "icon": "https://img.icons8.com/color/96/phone.png" },
-
-    { "title": "FBR Official", "category": "Tax", "url": "https://www.fbr.gov.pk", "icon": "https://img.icons8.com/color/96/tax.png" },
-    { "title": "FBR Iris Portal", "category": "Tax", "url": "https://iris.fbr.gov.pk", "icon": "https://img.icons8.com/color/96/tax.png" },
-    { "title": "MTMIS Punjab", "category": "Tax", "url": "https://mtmis.excise.punjab.gov.pk", "icon": "https://img.icons8.com/color/96/car.png" },
-    { "title": "MTMIS Sindh", "category": "Tax", "url": "https://excise.gos.pk", "icon": "https://img.icons8.com/color/96/car.png" },
-
-    { "title": "Pakistan Railways", "category": "Transport", "url": "https://www.pakrail.gov.pk", "icon": "https://img.icons8.com/color/96/train.png" },
-    { "title": "DLIMS Punjab", "category": "Transport", "url": "https://dlims.punjab.gov.pk", "icon": "https://img.icons8.com/color/96/identity-disk.png" },
-    { "title": "PIA Official", "category": "Transport", "url": "https://www.piac.com.pk", "icon": "https://img.icons8.com/color/96/airplane-take-off.png" },
-
-    { "title": "HEC Pakistan", "category": "Education", "url": "https://www.hec.gov.pk", "icon": "https://img.icons8.com/color/96/graduation-cap.png" },
-    { "title": "BISE Boards Portal", "category": "Education", "url": "https://www.biseweb.com", "icon": "https://img.icons8.com/color/96/school.png" },
-
-    { "title": "Sehat Sahulat Program", "category": "Health", "url": "https://www.pmhealthprogram.gov.pk", "icon": "https://img.icons8.com/color/96/hospital.png" },
-    { "title": "NIMS Vaccination Certificate", "category": "Health", "url": "https://nims.nadra.gov.pk", "icon": "https://img.icons8.com/color/96/vaccination.png" },
-
-    { "title": "BISP Official", "category": "Social", "url": "https://www.bisp.gov.pk", "icon": "https://img.icons8.com/color/96/charity.png" },
-    { "title": "PASS Division", "category": "Social", "url": "https://www.pass.gov.pk", "icon": "https://img.icons8.com/color/96/handshake.png" },
-
-    { "title": "Supreme Court of Pakistan", "category": "Law", "url": "https://www.supremecourt.gov.pk", "icon": "https://img.icons8.com/color/96/courthouse.png" },
-    { "title": "Federal Ombudsman", "category": "Law", "url": "https://www.ombudsman.gov.pk", "icon": "https://img.icons8.com/color/96/complaint.png" },
-
-    { "title": "Bureau of Emigration", "category": "Overseas", "url": "https://beoe.gov.pk", "icon": "https://img.icons8.com/color/96/document.png" },
-    { "title": "Overseas Pakistanis Foundation", "category": "Overseas", "url": "https://www.opf.org.pk", "icon": "https://img.icons8.com/color/96/conference.png" },
-    { "title": "Roshan Digital Account (SBP)", "category": "Overseas", "url": "https://www.sbp.org.pk/RDA", "icon": "https://img.icons8.com/color/96/bank-cards.png" },
-
-    { "title": "Punjab Land Records", "category": "Documents", "url": "https://www.punjab-zameen.gov.pk", "icon": "https://img.icons8.com/color/96/field.png" },
-
-    { "title": "Ministry of Religious Affairs (Hajj)", "category": "Hajj", "url": "https://www.mora.gov.pk", "icon": "https://img.icons8.com/color/96/kaaba.png" },
-
-    { "title": "Pakistan Citizen Portal", "category": "Complaints", "url": "https://www.citizenportal.gov.pk", "icon": "https://img.icons8.com/color/96/megaphone.png" },
-
-    { "title": "AMIS Agriculture Market Rates", "category": "Agriculture", "url": "https://www.amis.pk", "icon": "https://img.icons8.com/color/96/wheat.png" },
-
-    { "title": "Pakistan Embassy Saudi Arabia", "category": "Embassies", "url": "https://www.pakembassyksa.com", "icon": "https://img.icons8.com/color/96/saudi-arabia.png" },
-    { "title": "Pakistan High Commission UK", "category": "Embassies", "url": "https://www.phclondon.org", "icon": "https://img.icons8.com/color/96/great-britain.png" },
-    { "title": "Pakistan Embassy UAE", "category": "Embassies", "url": "https://pakembassyuae.gov.pk", "icon": "https://img.icons8.com/color/96/united-arab-emirates.png" }
-
+    {
+      "title": "Pakistan Citizen Portal",
+      "category": "Most Popular",
+      "province": "Federal",
+      "url": "https://complaint.pmo.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Electricity Bill (All Companies)",
+      "category": "Most Popular",
+      "province": "Federal",
+      "url": "https://bill.pitc.com.pk",
+      "webview_behavior": "zoom_enabled",
+      "note": "Supports LESCO, GEPCO, FESCO, IESCO, MEPCO, PESCO, HESCO, SEPCO, QESCO"
+    },
+    {
+      "title": "K-Electric Bills",
+      "category": "Most Popular",
+      "province": "Sindh",
+      "url": "https://www.ke.com.pk/customer-services/bill-services/duplicate-bill/",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Sui Gas Bills (SNGPL)",
+      "category": "Most Popular",
+      "province": "Federal",
+      "url": "https://www.sngpl.com.pk/login.jsp",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Sui Gas Bills (SSGC)",
+      "category": "Most Popular",
+      "province": "Federal",
+      "url": "https://viewbill.ssgc.com.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "NADRA ID Card Online",
+      "category": "Identity",
+      "province": "Federal",
+      "url": "https://id.nadra.gov.pk",
+      "webview_behavior": "external_browser",
+      "note": "Complex JS, better in external browser"
+    },
+    {
+      "title": "Passport Renewal Online",
+      "category": "Identity",
+      "province": "Federal",
+      "url": "https://onlinemrp.dgip.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Benazir Income Support (BISP)",
+      "category": "Identity",
+      "province": "Federal",
+      "url": "https://8171.bisp.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Vehicle Verification (Islamabad)",
+      "category": "Vehicles",
+      "province": "Federal",
+      "url": "https://islamabadexcise.gov.pk/vehicle_verification",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Vehicle Verification (Punjab)",
+      "category": "Vehicles",
+      "province": "Punjab",
+      "url": "https://mtmis.excise.punjab.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Vehicle Verification (Sindh)",
+      "category": "Vehicles",
+      "province": "Sindh",
+      "url": "https://excise.gos.pk/vehicle/vehicle_search",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Driving License (Punjab DLIMS)",
+      "category": "Vehicles",
+      "province": "Punjab",
+      "url": "https://dlims.punjab.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Driving License (Sindh)",
+      "category": "Vehicles",
+      "province": "Sindh",
+      "url": "https://dls.gos.pk/online-verification.html",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "FBR IRIS (Tax Filing)",
+      "category": "Tax",
+      "province": "Federal",
+      "url": "https://iris.fbr.gov.pk",
+      "webview_behavior": "desktop_mode"
+    },
+    {
+      "title": "FBR Taxpayer Lookup (ATL)",
+      "category": "Tax",
+      "province": "Federal",
+      "url": "https://e.fbr.gov.pk/esbn/Verification",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "National Jobs Portal",
+      "category": "Jobs",
+      "province": "Federal",
+      "url": "https://njp.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "FPSC",
+      "category": "Jobs",
+      "province": "Federal",
+      "url": "https://www.fpsc.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Bureau of Emigration (Protector)",
+      "category": "Overseas",
+      "province": "Federal",
+      "url": "https://beoe.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Overseas Pakistanis Foundation",
+      "category": "Overseas",
+      "province": "Federal",
+      "url": "https://www.opf.org.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Roshan Digital Account",
+      "category": "Overseas",
+      "province": "Federal",
+      "url": "https://www.sbp.org.pk/RDA",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Ministry of Foreign Affairs",
+      "category": "Govt Departments",
+      "province": "Federal",
+      "url": "https://mofa.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Punjab e-Services",
+      "category": "Govt Departments",
+      "province": "Punjab",
+      "url": "https://eservices.punjab.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Punjab Land Records",
+      "category": "Govt Departments",
+      "province": "Punjab",
+      "url": "https://www.punjab-zameen.gov.pk",
+      "webview_behavior": "desktop_mode"
+    },
+    {
+      "title": "Sindh e-Services",
+      "category": "Govt Departments",
+      "province": "Sindh",
+      "url": "https://eservices.sindh.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "KPK Government",
+      "category": "Govt Departments",
+      "province": "KPK",
+      "url": "https://kp.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "Balochistan Government",
+      "category": "Govt Departments",
+      "province": "Balochistan",
+      "url": "https://www.balochistan.gov.pk",
+      "webview_behavior": "standard"
+    },
+    {
+      "title": "HEC (Degree Attestation)",
+      "category": "Education",
+      "province": "Federal",
+      "url": "https://eservices.hec.gov.pk",
+      "webview_behavior": "desktop_mode"
+    },
+    {
+      "title": "Supreme Court of Pakistan",
+      "category": "Law",
+      "province": "Federal",
+      "url": "https://www.supremecourt.gov.pk",
+      "webview_behavior": "standard"
+    }
   ]
 }
