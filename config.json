@@ -1,207 +1,227 @@
 {
-  "app_info": {
-    "version": "2.1.0",
-    "last_verified": "Feb 2026",
-    "disclaimer": "This application is NOT affiliated with any Government entity. All links are publicly available official portals."
+  "app_config": {
+    "version": "3.5.0",
+    "last_updated": "Feb 2026",
+    "user_agent_desktop": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "note": "For 'desktop_mode' links, you MUST set the WebView UserAgent to the string above."
   },
-  "websites": [
+  "categories": [
     {
-      "title": "Pakistan Citizen Portal",
-      "category": "Most Popular",
-      "province": "Federal",
-      "url": "https://complaint.pmo.gov.pk",
-      "webview_behavior": "standard"
+      "category_name": "Identity & Passport (Federal)",
+      "items": [
+        {
+          "id": "id_nadra",
+          "title": "NADRA ID Card Online",
+          "url": "https://id.nadra.gov.pk",
+          "webview_behavior": "external_browser",
+          "note": "Strict security. Opens best in Chrome/System Browser.",
+          "icon": "id_card"
+        },
+        {
+          "id": "id_passport_renew",
+          "title": "Passport Renewal (Online)",
+          "url": "https://onlinemrp.dgip.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "passport"
+        },
+        {
+          "id": "id_passport_track",
+          "title": "Track Passport Application",
+          "url": "https://dgip.gov.pk/passport/tracking.php",
+          "webview_behavior": "standard",
+          "icon": "track"
+        },
+        {
+          "id": "id_family",
+          "title": "Family Registration Certificate (FRC)",
+          "url": "https://id.nadra.gov.pk/identity-documents/identity-frc/",
+          "webview_behavior": "external_browser",
+          "icon": "family"
+        }
+      ]
     },
     {
-      "title": "Electricity Bill (All Companies)",
-      "category": "Most Popular",
-      "province": "Federal",
-      "url": "https://bill.pitc.com.pk",
-      "webview_behavior": "zoom_enabled",
-      "note": "Supports LESCO, GEPCO, FESCO, IESCO, MEPCO, PESCO, HESCO, SEPCO, QESCO"
+      "category_name": "Punjab Land & Police",
+      "items": [
+        {
+          "id": "plra_home",
+          "title": "Land Records (Punjab Zameen)",
+          "url": "https://www.punjab-zameen.gov.pk",
+          "webview_behavior": "desktop_mode",
+          "note": "Heavy map interface. Requires Desktop Mode.",
+          "icon": "land"
+        },
+        {
+          "id": "plra_fard",
+          "title": "Digital Fard (Property Doc)",
+          "url": "https://fard.punjab-zameen.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "doc"
+        },
+        {
+          "id": "police_khidmat",
+          "title": "Police Khidmat Markaz",
+          "url": "https://pkm.punjab.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "police"
+        },
+        {
+          "id": "police_dl",
+          "title": "Driving License (DLIMS)",
+          "url": "https://dlims.punjab.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "license"
+        },
+        {
+          "id": "excise_mtmis",
+          "title": "Vehicle Verification (MTMIS)",
+          "url": "https://mtmis.excise.punjab.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "car"
+        }
+      ]
     },
     {
-      "title": "K-Electric Bills",
-      "category": "Most Popular",
-      "province": "Sindh",
-      "url": "https://www.ke.com.pk/customer-services/bill-services/duplicate-bill/",
-      "webview_behavior": "standard"
+      "category_name": "Overseas Pakistanis",
+      "items": [
+        {
+          "id": "os_protector",
+          "title": "Protector (Bureau of Emigration)",
+          "url": "https://beoe.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "globe"
+        },
+        {
+          "id": "os_opf",
+          "title": "Overseas Pakistanis Foundation",
+          "url": "https://www.opf.org.pk",
+          "webview_behavior": "standard",
+          "icon": "foundation"
+        },
+        {
+          "id": "os_pass_track",
+          "title": "Fast Track Passport (Overseas)",
+          "url": "https://onlinemrp.dgip.gov.pk/e-passport/",
+          "webview_behavior": "standard",
+          "icon": "fast_pass"
+        },
+        {
+          "id": "os_yaran",
+          "title": "Yaran-e-Watan (Health Prof)",
+          "url": "https://yaranewatan.gov.pk",
+          "webview_behavior": "standard",
+          "icon": "health"
+        },
+        {
+          "id": "os_bank",
+          "title": "Roshan Digital Account",
+          "url": "https://www.sbp.org.pk/RDA",
+          "webview_behavior": "standard",
+          "icon": "bank"
+        }
+      ]
     },
     {
-      "title": "Sui Gas Bills (SNGPL)",
-      "category": "Most Popular",
-      "province": "Federal",
-      "url": "https://www.sngpl.com.pk/login.jsp",
-      "webview_behavior": "standard"
+      "category_name": "Education (Punjab Boards)",
+      "items": [
+        {
+          "id": "bise_lhr",
+          "title": "BISE Lahore",
+          "url": "https://www.biselahore.com",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_grw",
+          "title": "BISE Gujranwala",
+          "url": "https://www.bisegrw.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_rwp",
+          "title": "BISE Rawalpindi",
+          "url": "https://biserawalpindi.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_fsd",
+          "title": "BISE Faisalabad",
+          "url": "http://www.bisefsd.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_sgd",
+          "title": "BISE Sargodha",
+          "url": "https://www.bisesargodha.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_mul",
+          "title": "BISE Multan",
+          "url": "https://web.bisemultan.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_swl",
+          "title": "BISE Sahiwal",
+          "url": "https://bisesahiwal.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_bwp",
+          "title": "BISE Bahawalpur",
+          "url": "https://bisebwp.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "bise_dgk",
+          "title": "BISE DG Khan",
+          "url": "https://www.bisedgkhan.edu.pk",
+          "webview_behavior": "desktop_mode",
+          "icon": "edu"
+        },
+        {
+          "id": "edu_pbcc",
+          "title": "PBCC (All Punjab Boards Info)",
+          "url": "https://pbcc.edu.pk",
+          "webview_behavior": "standard",
+          "icon": "info"
+        }
+      ]
     },
     {
-      "title": "Sui Gas Bills (SSGC)",
-      "category": "Most Popular",
-      "province": "Federal",
-      "url": "https://viewbill.ssgc.com.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "NADRA ID Card Online",
-      "category": "Identity",
-      "province": "Federal",
-      "url": "https://id.nadra.gov.pk",
-      "webview_behavior": "external_browser",
-      "note": "Complex JS, better in external browser"
-    },
-    {
-      "title": "Passport Renewal Online",
-      "category": "Identity",
-      "province": "Federal",
-      "url": "https://onlinemrp.dgip.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Benazir Income Support (BISP)",
-      "category": "Identity",
-      "province": "Federal",
-      "url": "https://8171.bisp.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Vehicle Verification (Islamabad)",
-      "category": "Vehicles",
-      "province": "Federal",
-      "url": "https://islamabadexcise.gov.pk/vehicle_verification",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Vehicle Verification (Punjab)",
-      "category": "Vehicles",
-      "province": "Punjab",
-      "url": "https://mtmis.excise.punjab.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Vehicle Verification (Sindh)",
-      "category": "Vehicles",
-      "province": "Sindh",
-      "url": "https://excise.gos.pk/vehicle/vehicle_search",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Driving License (Punjab DLIMS)",
-      "category": "Vehicles",
-      "province": "Punjab",
-      "url": "https://dlims.punjab.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Driving License (Sindh)",
-      "category": "Vehicles",
-      "province": "Sindh",
-      "url": "https://dls.gos.pk/online-verification.html",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "FBR IRIS (Tax Filing)",
-      "category": "Tax",
-      "province": "Federal",
-      "url": "https://iris.fbr.gov.pk",
-      "webview_behavior": "desktop_mode"
-    },
-    {
-      "title": "FBR Taxpayer Lookup (ATL)",
-      "category": "Tax",
-      "province": "Federal",
-      "url": "https://e.fbr.gov.pk/esbn/Verification",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "National Jobs Portal",
-      "category": "Jobs",
-      "province": "Federal",
-      "url": "https://njp.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "FPSC",
-      "category": "Jobs",
-      "province": "Federal",
-      "url": "https://www.fpsc.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Bureau of Emigration (Protector)",
-      "category": "Overseas",
-      "province": "Federal",
-      "url": "https://beoe.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Overseas Pakistanis Foundation",
-      "category": "Overseas",
-      "province": "Federal",
-      "url": "https://www.opf.org.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Roshan Digital Account",
-      "category": "Overseas",
-      "province": "Federal",
-      "url": "https://www.sbp.org.pk/RDA",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Ministry of Foreign Affairs",
-      "category": "Govt Departments",
-      "province": "Federal",
-      "url": "https://mofa.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Punjab e-Services",
-      "category": "Govt Departments",
-      "province": "Punjab",
-      "url": "https://eservices.punjab.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Punjab Land Records",
-      "category": "Govt Departments",
-      "province": "Punjab",
-      "url": "https://www.punjab-zameen.gov.pk",
-      "webview_behavior": "desktop_mode"
-    },
-    {
-      "title": "Sindh e-Services",
-      "category": "Govt Departments",
-      "province": "Sindh",
-      "url": "https://eservices.sindh.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "KPK Government",
-      "category": "Govt Departments",
-      "province": "KPK",
-      "url": "https://kp.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "Balochistan Government",
-      "category": "Govt Departments",
-      "province": "Balochistan",
-      "url": "https://www.balochistan.gov.pk",
-      "webview_behavior": "standard"
-    },
-    {
-      "title": "HEC (Degree Attestation)",
-      "category": "Education",
-      "province": "Federal",
-      "url": "https://eservices.hec.gov.pk",
-      "webview_behavior": "desktop_mode"
-    },
-    {
-      "title": "Supreme Court of Pakistan",
-      "category": "Law",
-      "province": "Federal",
-      "url": "https://www.supremecourt.gov.pk",
-      "webview_behavior": "standard"
+      "category_name": "Bill Checkers (Utilities)",
+      "items": [
+        {
+          "id": "util_elec",
+          "title": "Electricity Bill (PITC)",
+          "url": "https://bill.pitc.com.pk",
+          "webview_behavior": "zoom_enabled",
+          "note": "Includes LESCO, GEPCO, FESCO, IESCO, MEPCO, PESCO",
+          "icon": "electric"
+        },
+        {
+          "id": "util_sngpl",
+          "title": "Sui Gas (SNGPL)",
+          "url": "https://www.sngpl.com.pk/login.jsp",
+          "webview_behavior": "standard",
+          "icon": "gas"
+        },
+        {
+          "id": "util_ptcl",
+          "title": "PTCL Bill",
+          "url": "https://dbill.ptcl.net.pk",
+          "webview_behavior": "standard",
+          "icon": "wifi"
+        }
+      ]
     }
   ]
 }
