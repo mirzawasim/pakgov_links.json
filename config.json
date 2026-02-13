@@ -1,135 +1,101 @@
 {
-  "app_config": {
-    "version": "6.0.0",
-    "privacy_policy": "https://sites.google.com/view/pakgov-privacy",
-    "contact_email": "support@pakgov.pk"
+  "app_meta": {
+    "version": "10.0",
+    "app_name": "Pak E-Services Pro",
+    "theme_color": "#00695C"
   },
-  "dashboard_sections": [
+  "dashboard_layout": [
     {
-      "section_title": "Smart Tools (Offline)",
-      "layout_type": "grid_2x2",
+      "section_type": "offline_tools",
+      "title": "Smart Utilities (Offline)",
+      "display_style": "grid_3_columns",
       "items": [
         {
-          "id": "tool_saved_ids",
-          "title": "Saved IDs",
-          "subtitle": "Bill Ref & CNIC",
-          "icon_name": "ic_wallet",
-          "action_type": "native",
-          "native_target": "fragment_saved_ids"
+          "id": "tool_land",
+          "title": "Land Converter",
+          "subtitle": "Marla / Kanal / Sq.ft",
+          "icon_key": "ic_land",
+          "action": "native_fragment",
+          "target": "FragmentLandCalc"
+        },
+        {
+          "id": "tool_bill",
+          "title": "Bill Estimator",
+          "subtitle": "Calculate Elec Cost",
+          "icon_key": "ic_bill",
+          "action": "native_fragment",
+          "target": "FragmentBillCalc"
+        },
+        {
+          "id": "tool_zakat",
+          "title": "Zakat Calc",
+          "subtitle": "2.5% Asset Calc",
+          "icon_key": "ic_zakat",
+          "action": "native_fragment",
+          "target": "FragmentZakat"
         },
         {
           "id": "tool_age",
-          "title": "Age Calc",
-          "subtitle": "Years & Days",
-          "icon_name": "ic_calendar",
-          "action_type": "native",
-          "native_target": "fragment_age_calc"
+          "title": "Age Calculator",
+          "subtitle": "Exact Years & Days",
+          "icon_key": "ic_age",
+          "action": "native_fragment",
+          "target": "FragmentAge"
         },
         {
           "id": "tool_merit",
           "title": "Merit Calc",
-          "subtitle": "Admission %",
-          "icon_name": "ic_school",
-          "action_type": "native",
-          "native_target": "fragment_merit"
+          "subtitle": "Student Aggregate",
+          "icon_key": "ic_student",
+          "action": "native_fragment",
+          "target": "FragmentMerit"
         },
         {
-          "id": "tool_emergency",
-          "title": "Emergency",
-          "subtitle": "Rescue 1122",
-          "icon_name": "ic_call",
-          "action_type": "native",
-          "native_target": "fragment_emergency"
+          "id": "tool_bmi",
+          "title": "Health BMI",
+          "subtitle": "Body Mass Index",
+          "icon_key": "ic_health",
+          "action": "native_fragment",
+          "target": "FragmentBMI"
         }
       ]
     },
     {
-      "section_title": "Most Popular Services",
-      "layout_type": "linear_list",
+      "section_type": "online_services",
+      "title": "Official Government Portals",
+      "display_style": "list_linear",
       "items": [
         {
-          "id": "serv_bill_pitc",
-          "title": "Check Electricity Bill",
-          "url": "https://bill.pitc.com.pk",
-          "action_type": "webview",
-          "webview_behavior": "zoom_enabled",
-          "icon_name": "ic_electric"
-        },
-        {
-          "id": "serv_nadra_id",
-          "title": "NADRA ID Card Online",
-          "url": "https://id.nadra.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "external_browser",
-          "icon_name": "ic_card"
-        },
-        {
-          "id": "serv_passport",
+          "id": "gov_passport",
           "title": "Passport Renewal",
           "url": "https://onlinemrp.dgip.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_passport"
+          "action": "webview",
+          "behavior": "standard",
+          "icon_key": "ic_passport"
         },
         {
-          "id": "serv_vehicle_punjab",
-          "title": "Vehicle Verification (Punjab)",
-          "url": "https://mtmis.excise.punjab.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_car"
-        }
-      ]
-    },
-    {
-      "section_title": "Government & Tax",
-      "layout_type": "linear_list",
-      "items": [
+          "id": "gov_nadra",
+          "title": "NADRA ID Services",
+          "url": "https://id.nadra.gov.pk",
+          "action": "webview",
+          "behavior": "external_browser",
+          "icon_key": "ic_nadra"
+        },
         {
-          "id": "serv_fbr_iris",
-          "title": "FBR IRIS (Tax Filing)",
+          "id": "gov_fbr",
+          "title": "FBR IRIS Tax Filing",
           "url": "https://iris.fbr.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "desktop_mode",
-          "icon_name": "ic_tax"
+          "action": "webview",
+          "behavior": "desktop_mode",
+          "icon_key": "ic_tax"
         },
         {
-          "id": "serv_fbr_atl",
-          "title": "Active Taxpayer List",
-          "url": "https://e.fbr.gov.pk/esbn/Verification",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_search"
-        },
-        {
-          "id": "serv_domicile",
-          "title": "Domicile Management",
-          "url": "https://domicile.punjab.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_file"
-        }
-      ]
-    },
-    {
-      "section_title": "Jobs & Education",
-      "layout_type": "linear_list",
-      "items": [
-        {
-          "id": "job_njp",
-          "title": "National Jobs Portal",
-          "url": "https://njp.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_job"
-        },
-        {
-          "id": "job_fpsc",
-          "title": "FPSC (Federal Jobs)",
-          "url": "https://www.fpsc.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_job"
+          "id": "gov_excise",
+          "title": "Vehicle Verification",
+          "url": "https://mtmis.excise.punjab.gov.pk",
+          "action": "webview",
+          "behavior": "standard",
+          "icon_key": "ic_car"
         }
       ]
     }
