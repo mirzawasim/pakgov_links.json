@@ -1,9 +1,8 @@
 {
   "app_config": {
-    "version": "5.0.0",
-    "last_updated": "Feb 2026",
-    "privacy_policy_url": "https://your-privacy-policy-link.com",
-    "contact_email": "support@yourapp.com"
+    "version": "6.0.0",
+    "privacy_policy": "https://sites.google.com/view/pakgov-privacy",
+    "contact_email": "support@pakgov.pk"
   },
   "dashboard_sections": [
     {
@@ -12,35 +11,35 @@
       "items": [
         {
           "id": "tool_saved_ids",
-          "title": "My Saved IDs",
-          "subtitle": "Save Bill Ref & CNIC",
+          "title": "Saved IDs",
+          "subtitle": "Bill Ref & CNIC",
           "icon_name": "ic_wallet",
           "action_type": "native",
           "native_target": "fragment_saved_ids"
         },
         {
-          "id": "tool_age_calc",
-          "title": "Age Calculator",
-          "subtitle": "Calculate Exact Age",
+          "id": "tool_age",
+          "title": "Age Calc",
+          "subtitle": "Years & Days",
           "icon_name": "ic_calendar",
           "action_type": "native",
           "native_target": "fragment_age_calc"
         },
         {
           "id": "tool_merit",
-          "title": "Merit Calculator",
-          "subtitle": "Matric & Inter Aggregate",
-          "icon_name": "ic_education",
+          "title": "Merit Calc",
+          "subtitle": "Admission %",
+          "icon_name": "ic_school",
           "action_type": "native",
           "native_target": "fragment_merit"
         },
         {
-          "id": "tool_bill_est",
-          "title": "Bill Estimator",
-          "subtitle": "Estimate Electricity Cost",
-          "icon_name": "ic_calculator",
+          "id": "tool_emergency",
+          "title": "Emergency",
+          "subtitle": "Rescue 1122",
+          "icon_name": "ic_call",
           "action_type": "native",
-          "native_target": "fragment_bill_est"
+          "native_target": "fragment_emergency"
         }
       ]
     },
@@ -49,28 +48,20 @@
       "layout_type": "linear_list",
       "items": [
         {
-          "id": "serv_bill_elec",
-          "title": "Electricity Bill (All Cities)",
+          "id": "serv_bill_pitc",
+          "title": "Check Electricity Bill",
           "url": "https://bill.pitc.com.pk",
           "action_type": "webview",
           "webview_behavior": "zoom_enabled",
           "icon_name": "ic_electric"
         },
         {
-          "id": "serv_nadra",
+          "id": "serv_nadra_id",
           "title": "NADRA ID Card Online",
           "url": "https://id.nadra.gov.pk",
           "action_type": "webview",
           "webview_behavior": "external_browser",
-          "icon_name": "ic_id_card"
-        },
-        {
-          "id": "serv_vehicle_punjab",
-          "title": "Vehicle Verification (Punjab)",
-          "url": "https://mtmis.excise.punjab.gov.pk",
-          "action_type": "webview",
-          "webview_behavior": "standard",
-          "icon_name": "ic_car"
+          "icon_name": "ic_card"
         },
         {
           "id": "serv_passport",
@@ -79,15 +70,23 @@
           "action_type": "webview",
           "webview_behavior": "standard",
           "icon_name": "ic_passport"
+        },
+        {
+          "id": "serv_vehicle_punjab",
+          "title": "Vehicle Verification (Punjab)",
+          "url": "https://mtmis.excise.punjab.gov.pk",
+          "action_type": "webview",
+          "webview_behavior": "standard",
+          "icon_name": "ic_car"
         }
       ]
     },
     {
-      "section_title": "More Government Services",
+      "section_title": "Government & Tax",
       "layout_type": "linear_list",
       "items": [
         {
-          "id": "serv_fbr",
+          "id": "serv_fbr_iris",
           "title": "FBR IRIS (Tax Filing)",
           "url": "https://iris.fbr.gov.pk",
           "action_type": "webview",
@@ -95,15 +94,29 @@
           "icon_name": "ic_tax"
         },
         {
+          "id": "serv_fbr_atl",
+          "title": "Active Taxpayer List",
+          "url": "https://e.fbr.gov.pk/esbn/Verification",
+          "action_type": "webview",
+          "webview_behavior": "standard",
+          "icon_name": "ic_search"
+        },
+        {
           "id": "serv_domicile",
           "title": "Domicile Management",
           "url": "https://domicile.punjab.gov.pk",
           "action_type": "webview",
           "webview_behavior": "standard",
-          "icon_name": "ic_gov"
-        },
+          "icon_name": "ic_file"
+        }
+      ]
+    },
+    {
+      "section_title": "Jobs & Education",
+      "layout_type": "linear_list",
+      "items": [
         {
-          "id": "serv_job_njp",
+          "id": "job_njp",
           "title": "National Jobs Portal",
           "url": "https://njp.gov.pk",
           "action_type": "webview",
@@ -111,12 +124,12 @@
           "icon_name": "ic_job"
         },
         {
-          "id": "serv_1122",
-          "title": "Rescue 1122 (Call Now)",
-          "url": "tel:1122",
-          "action_type": "intent_call",
-          "webview_behavior": "none",
-          "icon_name": "ic_call"
+          "id": "job_fpsc",
+          "title": "FPSC (Federal Jobs)",
+          "url": "https://www.fpsc.gov.pk",
+          "action_type": "webview",
+          "webview_behavior": "standard",
+          "icon_name": "ic_job"
         }
       ]
     }
