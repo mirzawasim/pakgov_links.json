@@ -1,225 +1,122 @@
 {
   "app_config": {
-    "version": "3.5.0",
+    "version": "5.0.0",
     "last_updated": "Feb 2026",
-    "user_agent_desktop": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "note": "For 'desktop_mode' links, you MUST set the WebView UserAgent to the string above."
+    "privacy_policy_url": "https://your-privacy-policy-link.com",
+    "contact_email": "support@yourapp.com"
   },
-  "categories": [
+  "dashboard_sections": [
     {
-      "category_name": "Identity & Passport (Federal)",
+      "section_title": "Smart Tools (Offline)",
+      "layout_type": "grid_2x2",
       "items": [
         {
-          "id": "id_nadra",
+          "id": "tool_saved_ids",
+          "title": "My Saved IDs",
+          "subtitle": "Save Bill Ref & CNIC",
+          "icon_name": "ic_wallet",
+          "action_type": "native",
+          "native_target": "fragment_saved_ids"
+        },
+        {
+          "id": "tool_age_calc",
+          "title": "Age Calculator",
+          "subtitle": "Calculate Exact Age",
+          "icon_name": "ic_calendar",
+          "action_type": "native",
+          "native_target": "fragment_age_calc"
+        },
+        {
+          "id": "tool_merit",
+          "title": "Merit Calculator",
+          "subtitle": "Matric & Inter Aggregate",
+          "icon_name": "ic_education",
+          "action_type": "native",
+          "native_target": "fragment_merit"
+        },
+        {
+          "id": "tool_bill_est",
+          "title": "Bill Estimator",
+          "subtitle": "Estimate Electricity Cost",
+          "icon_name": "ic_calculator",
+          "action_type": "native",
+          "native_target": "fragment_bill_est"
+        }
+      ]
+    },
+    {
+      "section_title": "Most Popular Services",
+      "layout_type": "linear_list",
+      "items": [
+        {
+          "id": "serv_bill_elec",
+          "title": "Electricity Bill (All Cities)",
+          "url": "https://bill.pitc.com.pk",
+          "action_type": "webview",
+          "webview_behavior": "zoom_enabled",
+          "icon_name": "ic_electric"
+        },
+        {
+          "id": "serv_nadra",
           "title": "NADRA ID Card Online",
           "url": "https://id.nadra.gov.pk",
+          "action_type": "webview",
           "webview_behavior": "external_browser",
-          "note": "Strict security. Opens best in Chrome/System Browser.",
-          "icon": "id_card"
+          "icon_name": "ic_id_card"
         },
         {
-          "id": "id_passport_renew",
-          "title": "Passport Renewal (Online)",
-          "url": "https://onlinemrp.dgip.gov.pk",
-          "webview_behavior": "standard",
-          "icon": "passport"
-        },
-        {
-          "id": "id_passport_track",
-          "title": "Track Passport Application",
-          "url": "https://dgip.gov.pk/passport/tracking.php",
-          "webview_behavior": "standard",
-          "icon": "track"
-        },
-        {
-          "id": "id_family",
-          "title": "Family Registration Certificate (FRC)",
-          "url": "https://id.nadra.gov.pk/identity-documents/identity-frc/",
-          "webview_behavior": "external_browser",
-          "icon": "family"
-        }
-      ]
-    },
-    {
-      "category_name": "Punjab Land & Police",
-      "items": [
-        {
-          "id": "plra_home",
-          "title": "Land Records (Punjab Zameen)",
-          "url": "https://www.punjab-zameen.gov.pk",
-          "webview_behavior": "desktop_mode",
-          "note": "Heavy map interface. Requires Desktop Mode.",
-          "icon": "land"
-        },
-        {
-          "id": "plra_fard",
-          "title": "Digital Fard (Property Doc)",
-          "url": "https://fard.punjab-zameen.gov.pk",
-          "webview_behavior": "standard",
-          "icon": "doc"
-        },
-        {
-          "id": "police_khidmat",
-          "title": "Police Khidmat Markaz",
-          "url": "https://pkm.punjab.gov.pk",
-          "webview_behavior": "standard",
-          "icon": "police"
-        },
-        {
-          "id": "police_dl",
-          "title": "Driving License (DLIMS)",
-          "url": "https://dlims.punjab.gov.pk",
-          "webview_behavior": "standard",
-          "icon": "license"
-        },
-        {
-          "id": "excise_mtmis",
-          "title": "Vehicle Verification (MTMIS)",
+          "id": "serv_vehicle_punjab",
+          "title": "Vehicle Verification (Punjab)",
           "url": "https://mtmis.excise.punjab.gov.pk",
+          "action_type": "webview",
           "webview_behavior": "standard",
-          "icon": "car"
+          "icon_name": "ic_car"
+        },
+        {
+          "id": "serv_passport",
+          "title": "Passport Renewal",
+          "url": "https://onlinemrp.dgip.gov.pk",
+          "action_type": "webview",
+          "webview_behavior": "standard",
+          "icon_name": "ic_passport"
         }
       ]
     },
     {
-      "category_name": "Overseas Pakistanis",
+      "section_title": "More Government Services",
+      "layout_type": "linear_list",
       "items": [
         {
-          "id": "os_protector",
-          "title": "Protector (Bureau of Emigration)",
-          "url": "https://beoe.gov.pk",
+          "id": "serv_fbr",
+          "title": "FBR IRIS (Tax Filing)",
+          "url": "https://iris.fbr.gov.pk",
+          "action_type": "webview",
+          "webview_behavior": "desktop_mode",
+          "icon_name": "ic_tax"
+        },
+        {
+          "id": "serv_domicile",
+          "title": "Domicile Management",
+          "url": "https://domicile.punjab.gov.pk",
+          "action_type": "webview",
           "webview_behavior": "standard",
-          "icon": "globe"
+          "icon_name": "ic_gov"
         },
         {
-          "id": "os_opf",
-          "title": "Overseas Pakistanis Foundation",
-          "url": "https://www.opf.org.pk",
+          "id": "serv_job_njp",
+          "title": "National Jobs Portal",
+          "url": "https://njp.gov.pk",
+          "action_type": "webview",
           "webview_behavior": "standard",
-          "icon": "foundation"
+          "icon_name": "ic_job"
         },
         {
-          "id": "os_pass_track",
-          "title": "Fast Track Passport (Overseas)",
-          "url": "https://onlinemrp.dgip.gov.pk/e-passport/",
-          "webview_behavior": "standard",
-          "icon": "fast_pass"
-        },
-        {
-          "id": "os_yaran",
-          "title": "Yaran-e-Watan (Health Prof)",
-          "url": "https://yaranewatan.gov.pk",
-          "webview_behavior": "standard",
-          "icon": "health"
-        },
-        {
-          "id": "os_bank",
-          "title": "Roshan Digital Account",
-          "url": "https://www.sbp.org.pk/RDA",
-          "webview_behavior": "standard",
-          "icon": "bank"
-        }
-      ]
-    },
-    {
-      "category_name": "Education (Punjab Boards)",
-      "items": [
-        {
-          "id": "bise_lhr",
-          "title": "BISE Lahore",
-          "url": "https://www.biselahore.com",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_grw",
-          "title": "BISE Gujranwala",
-          "url": "https://www.bisegrw.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_rwp",
-          "title": "BISE Rawalpindi",
-          "url": "https://biserawalpindi.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_fsd",
-          "title": "BISE Faisalabad",
-          "url": "http://www.bisefsd.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_sgd",
-          "title": "BISE Sargodha",
-          "url": "https://www.bisesargodha.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_mul",
-          "title": "BISE Multan",
-          "url": "https://web.bisemultan.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_swl",
-          "title": "BISE Sahiwal",
-          "url": "https://bisesahiwal.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_bwp",
-          "title": "BISE Bahawalpur",
-          "url": "https://bisebwp.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "bise_dgk",
-          "title": "BISE DG Khan",
-          "url": "https://www.bisedgkhan.edu.pk",
-          "webview_behavior": "desktop_mode",
-          "icon": "edu"
-        },
-        {
-          "id": "edu_pbcc",
-          "title": "PBCC (All Punjab Boards Info)",
-          "url": "https://pbcc.edu.pk",
-          "webview_behavior": "standard",
-          "icon": "info"
-        }
-      ]
-    },
-    {
-      "category_name": "Bill Checkers (Utilities)",
-      "items": [
-        {
-          "id": "util_elec",
-          "title": "Electricity Bill (PITC)",
-          "url": "https://bill.pitc.com.pk",
-          "webview_behavior": "zoom_enabled",
-          "note": "Includes LESCO, GEPCO, FESCO, IESCO, MEPCO, PESCO",
-          "icon": "electric"
-        },
-        {
-          "id": "util_sngpl",
-          "title": "Sui Gas (SNGPL)",
-          "url": "https://www.sngpl.com.pk/login.jsp",
-          "webview_behavior": "standard",
-          "icon": "gas"
-        },
-        {
-          "id": "util_ptcl",
-          "title": "PTCL Bill",
-          "url": "https://dbill.ptcl.net.pk",
-          "webview_behavior": "standard",
-          "icon": "wifi"
+          "id": "serv_1122",
+          "title": "Rescue 1122 (Call Now)",
+          "url": "tel:1122",
+          "action_type": "intent_call",
+          "webview_behavior": "none",
+          "icon_name": "ic_call"
         }
       ]
     }
